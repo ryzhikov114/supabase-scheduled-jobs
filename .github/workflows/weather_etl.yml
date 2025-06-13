@@ -40,4 +40,4 @@ jobs:
         port: ${{ secrets.DB_PORT }}
         dbname: ${{ secrets.DB_NAME }}
       run: |
-        python etl_weather_current_from_open_meteo.py
+        python actions_etl_weather_current_from_open_meteo.py
